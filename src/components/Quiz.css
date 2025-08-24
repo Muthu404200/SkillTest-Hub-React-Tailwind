@@ -1,0 +1,22 @@
+@keyframes button-top {
+  0% { transform: translate(0,0); }
+  2% { transform: translate(0,-8px); }
+  5% { transform: translate(0px,15px); }
+  8% { transform: translate(0,-5px); }
+  10% { transform: translate(0,0); }
+}
+
+@keyframes big-hand {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-button-top {
+  animation: button-top 4s ease infinite;
+}
+
+.animate-big-hand {
+  transform-origin: 50% 55.85%;
+  animation: big-hand 4s cubic-bezier(.93,.3,.3,.93) .25s infinite;
+}
