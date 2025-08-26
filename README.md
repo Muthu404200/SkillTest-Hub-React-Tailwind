@@ -51,3 +51,6 @@ A simple and elegant quiz web app built with **React** and styled with **Tailwin
 ```bash
 git clone https://github.com/Muthu404200/SkillTest-Hub-React-Tailwind.git
 cd SkillTest-Hub-React-Tailwind.git
+```
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
