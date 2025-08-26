@@ -1,12 +1,53 @@
-# React + Vite
+# SkillTest Hub React Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant quiz web app built with **React** and styled with **Tailwind CSS**, inspired by the macOS theme (`#007AFF` blue + `#ffffff` white).
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🏠 **Home Page** with quiz selection cards (Microsoft Quiz, Tally Quiz, SAP Quiz)
+- 📑 **Multiple Choice Quiz System**
+  - Select one answer per question
+  - Navigate between questions
+  - Final score at the end
+- 🚀 **Quiz Results Page**
+  - Shows your score
+  - Two buttons: **Restart** or **Go Home**
+- 🎨 **UI Theme**
+  - Clean macOS-inspired theme
+  - Gradient / patterned backgrounds
+- ⚡ **SPA (Single Page App) with React Router**
+  - Uses `HashRouter` for GitHub Pages compatibility
+  - Works with refresh / direct links
+ 
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Preview
 
-## Expanding the ESLint configuration
+[SkillTest Hub on GitHub Page](https://muthu404200.github.io/SkillTest-Hub-React-Tailwind/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](Home.png)
+
+### 📝 Quiz Page
+![Quiz Page](Quiz.png)
+
+### 🏆 Results Page
+![Results Page](Results.png)
+
+
+## 🛠️ Tech Stack
+- **React 18**
+- **React Router DOM**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Deployed on GitHub Pages**
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/Muthu404200/SkillTest-Hub-React-Tailwind.git
+cd SkillTest-Hub-React-Tailwind.git
