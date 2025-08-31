@@ -3,13 +3,17 @@ import React, { useState, useEffect } from "react";
 import Confetti from "react-confetti";
 import { useWindowSize } from "react-use";
 import { motion, AnimatePresence } from "framer-motion";
-import questions from "../data/questions";
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,useParams} from "react-router-dom";
 import "./Quiz.css";
+
+import { msQuestions, tallyQuestions } from "../data";
 
 const Quiz = () => {
   const navigate = useNavigate();
   const { width, height } = useWindowSize();
+
+  const { type } = useParams();
+  const questions = type === "ms" ? msQuestions : tallyQuestions;
 
   // Load saved progress from localStorage (if available)
   const savedCurrent = parseInt(localStorage.getItem("quiz-current")) || 0;
