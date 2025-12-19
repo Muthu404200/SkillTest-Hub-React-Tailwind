@@ -1,12 +1,62 @@
-# React + Vite
+#  SkillTest Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:**  
+https://muthu404200.github.io/SkillTest-Hub-React-Tailwind/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Overview
 
-## Expanding the ESLint configuration
+**SkillTest Hub** is a responsive web application built using **React.js** and **Tailwind CSS** that allows users to test their skills through interactive quizzes.  
+This project highlights modern frontend development practices, clean UI design, and responsive layouts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **State Management:** React Hooks  
+- **Deployment:** GitHub Pages  
+
+---
+
+##  Features
+
+-  Fully responsive design (mobile & desktop)
+-  Fast and interactive UI built with React
+-  Clean and modern styling using Tailwind CSS
+-  Reusable and modular React components
+-  Skill-based quiz/test interface
+-  Live deployment using GitHub Pages
+
+---
+
+## 📂 Project Structure
+
+```text
+SkillTest-Hub-React-Tailwind/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   └── index.js
+│
+├── public/
+├── package.json
+└── README.md
+
+```
+
+# Clone the repository
+git clone https://github.com/muthu404200/SkillTest-Hub-React-Tailwind.git
+
+# Navigate to project directory
+cd SkillTest-Hub-React-Tailwind
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
